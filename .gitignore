@@ -1,0 +1,19 @@
+/.env
+/Topics.md
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Local SQLite database (created by create_db_and_tables)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Editor — keep shared settings.json, ignore per-user files
+.vscode/*
+!.vscode/settings.json
